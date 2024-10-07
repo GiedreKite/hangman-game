@@ -219,7 +219,7 @@ export function Game(params) {
     
             </div>
             {end &&
-                <div> <h2>The Spelword was: {revealed}</h2>
+                <div> <h2>The Spell word was: {revealed}</h2>
                     <button className="endbutton" onClick={() => setStart(true)}>Play new game</button></div>
             }
     
